@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         let input: String = rawInput.text!
         let decoded = fromBase64(word: input)
         rawInput.resignFirstResponder() //Hide Keyboard
-        output.text = "\(decoded)adwe247vsck40jkl54@#$%^&^5wv4"
+//        output.text = "\(decoded)adwe247vsck40jkl54@#$%^&^5wv4"
         print("Decoded: \(decoded)||adwe247vsck40jkl54@#$%^&^5wv4")
     }
     
