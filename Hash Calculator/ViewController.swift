@@ -1,10 +1,10 @@
-//
-//  ViewController.swift
-//  Hash Calculator
-//
-//  Created by John Melody on 28/05/2020.
-//  Copyright © 2020 John Melody. All rights reserved.
-//
+/*
+*  ViewController.swift
+*  @Project: Hash Calculator
+*  @Created: by John Melody on 28/05/2020.
+*  Copyright © 2020 John Melody. All rights reserved.
+*/
+
 
 import UIKit
 import CryptoKit
@@ -24,15 +24,15 @@ class ViewController: UIViewController {
     @IBAction func calculate(_ sender: UIButton) {
         let input: String = rawInput.text!
         let encoded = toBase64(word: input)
-        output.text = encoded
-        print("Encoded: \(input)")
+        output.text = "\(encoded)dksdpsf47asdukjnfwelm$%^&^5wv4"
+        print("Encoded: \(input)||dksdpsf47asdukjnfwelm$%^&^5wv4")
     }
     
     @IBAction func decalculate(_ sender: UIButton) {
         let input: String = rawInput.text!
         let decoded = fromBase64(word: input)
-        output.text = decoded
-        print("Decoded: \(decoded)")
+        output.text = "\(decoded)adwe247vsck40jkl54@#$%^&^5wv4"
+        print("Decoded: \(decoded)||adwe247vsck40jkl54@#$%^&^5wv4")
     }
     
     func toBase64(word: String) -> String {
