@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEFC572247FAD2D0048BF3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFC571247FAD2D0048BF3C /* AppDelegate.swift */; };
+		FAEFC576247FAD2D0048BF3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFC575247FAD2D0048BF3C /* ViewController.swift */; };
+		FAEFC579247FAD2D0048BF3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEFC577247FAD2D0048BF3C /* Main.storyboard */; };
+		FAEFC57B247FAD340048BF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEFC57A247FAD340048BF3C /* Assets.xcassets */; };
+		FAEFC57E247FAD340048BF3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEFC57C247FAD340048BF3C /* LaunchScreen.storyboard */; };
+		FAEFC589247FAD340048BF3C /* Hash_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFC588247FAD340048BF3C /* Hash_CalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAEFC585247FAD340048BF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEFC566247FAD2C0048BF3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEFC56D247FAD2C0048BF3C;
+			remoteInfo = "Hash Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAEFC56E247FAD2C0048BF3C /* Hash Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hash Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFC571247FAD2D0048BF3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEFC575247FAD2D0048BF3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAEFC578247FAD2D0048BF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAEFC57A247FAD340048BF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEFC57D247FAD340048BF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAEFC57F247FAD340048BF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEFC584247FAD340048BF3C /* Hash CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hash CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFC588247FAD340048BF3C /* Hash_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash_CalculatorTests.swift; sourceTree = "<group>"; };
+		FAEFC58A247FAD340048BF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEFC56B247FAD2C0048BF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFC581247FAD340048BF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEFC565247FAD2C0048BF3C = {
+			isa = PBXGroup;
+			children = (
+				FAEFC570247FAD2C0048BF3C /* Hash Calculator */,
+				FAEFC587247FAD340048BF3C /* Hash CalculatorTests */,
+				FAEFC56F247FAD2C0048BF3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEFC56F247FAD2C0048BF3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFC56E247FAD2C0048BF3C /* Hash Calculator.app */,
+				FAEFC584247FAD340048BF3C /* Hash CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEFC570247FAD2C0048BF3C /* Hash Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFC571247FAD2D0048BF3C /* AppDelegate.swift */,
+				FAEFC575247FAD2D0048BF3C /* ViewController.swift */,
+				FAEFC577247FAD2D0048BF3C /* Main.storyboard */,
+				FAEFC57A247FAD340048BF3C /* Assets.xcassets */,
+				FAEFC57C247FAD340048BF3C /* LaunchScreen.storyboard */,
+				FAEFC57F247FAD340048BF3C /* Info.plist */,
+			);
+			path = "Hash Calculator";
+			sourceTree = "<group>";
+		};
+		FAEFC587247FAD340048BF3C /* Hash CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFC588247FAD340048BF3C /* Hash_CalculatorTests.swift */,
+				FAEFC58A247FAD340048BF3C /* Info.plist */,
+			);
+			path = "Hash CalculatorTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEFC56D247FAD2C0048BF3C /* Hash Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEFC58D247FAD350048BF3C /* Build configuration list for PBXNativeTarget "Hash Calculator" */;
+			buildPhases = (
+				FAEFC56A247FAD2C0048BF3C /* Sources */,
+				FAEFC56B247FAD2C0048BF3C /* Frameworks */,
+				FAEFC56C247FAD2C0048BF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hash Calculator";
+			productName = "Hash Calculator";
+			productReference = FAEFC56E247FAD2C0048BF3C /* Hash Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAEFC583247FAD340048BF3C /* Hash CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEFC590247FAD350048BF3C /* Build configuration list for PBXNativeTarget "Hash CalculatorTests" */;
+			buildPhases = (
+				FAEFC580247FAD340048BF3C /* Sources */,
+				FAEFC581247FAD340048BF3C /* Frameworks */,
+				FAEFC582247FAD340048BF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEFC586247FAD340048BF3C /* PBXTargetDependency */,
+			);
+			name = "Hash CalculatorTests";
+			productName = "Hash CalculatorTests";
+			productReference = FAEFC584247FAD340048BF3C /* Hash CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEFC566247FAD2C0048BF3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "John Melody";
+				TargetAttributes = {
+					FAEFC56D247FAD2C0048BF3C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					FAEFC583247FAD340048BF3C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FAEFC56D247FAD2C0048BF3C;
+					};
+				};
+			};
+			buildConfigurationList = FAEFC569247FAD2C0048BF3C /* Build configuration list for PBXProject "Hash Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEFC565247FAD2C0048BF3C;
+			productRefGroup = FAEFC56F247FAD2C0048BF3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEFC56D247FAD2C0048BF3C /* Hash Calculator */,
+				FAEFC583247FAD340048BF3C /* Hash CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEFC56C247FAD2C0048BF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFC57E247FAD340048BF3C /* LaunchScreen.storyboard in Resources */,
+				FAEFC57B247FAD340048BF3C /* Assets.xcassets in Resources */,
+				FAEFC579247FAD2D0048BF3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFC582247FAD340048BF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEFC56A247FAD2C0048BF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFC576247FAD2D0048BF3C /* ViewController.swift in Sources */,
+				FAEFC572247FAD2D0048BF3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFC580247FAD340048BF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFC589247FAD340048BF3C /* Hash_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAEFC586247FAD340048BF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEFC56D247FAD2C0048BF3C /* Hash Calculator */;
+			targetProxy = FAEFC585247FAD340048BF3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAEFC577247FAD2D0048BF3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEFC578247FAD2D0048BF3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAEFC57C247FAD340048BF3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEFC57D247FAD340048BF3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEFC58B247FAD350048BF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEFC58C247FAD350048BF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEFC58E247FAD350048BF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W5GY4L6GJ;
+				INFOPLIST_FILE = "Hash Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnmelodyme.Crypto.Hash-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEFC58F247FAD350048BF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W5GY4L6GJ;
+				INFOPLIST_FILE = "Hash Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnmelodyme.Crypto.Hash-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAEFC591247FAD350048BF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W5GY4L6GJ;
+				INFOPLIST_FILE = "Hash CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnmelodyme.Crypto.Hash-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hash Calculator.app/Hash Calculator";
+			};
+			name = Debug;
+		};
+		FAEFC592247FAD350048BF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W5GY4L6GJ;
+				INFOPLIST_FILE = "Hash CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnmelodyme.Crypto.Hash-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hash Calculator.app/Hash Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEFC569247FAD2C0048BF3C /* Build configuration list for PBXProject "Hash Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFC58B247FAD350048BF3C /* Debug */,
+				FAEFC58C247FAD350048BF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEFC58D247FAD350048BF3C /* Build configuration list for PBXNativeTarget "Hash Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFC58E247FAD350048BF3C /* Debug */,
+				FAEFC58F247FAD350048BF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEFC590247FAD350048BF3C /* Build configuration list for PBXNativeTarget "Hash CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFC591247FAD350048BF3C /* Debug */,
+				FAEFC592247FAD350048BF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEFC566247FAD2C0048BF3C /* Project object */;
+}
