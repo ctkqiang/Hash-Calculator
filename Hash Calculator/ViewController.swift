@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     @IBAction func calculate(_ sender: UIButton) {
         let input: String = rawInput.text!
         let encoded = toBase64(word: input)
+        output.resignFirstResponder()
         output.text = "\(encoded)dksdpsf47asdukjnfwelm$%^&^5wv4"
         print("Encoded: \(input)||dksdpsf47asdukjnfwelm$%^&^5wv4")
     }
@@ -31,6 +32,7 @@ class ViewController: UIViewController {
     @IBAction func decalculate(_ sender: UIButton) {
         let input: String = rawInput.text!
         let decoded = fromBase64(word: input)
+        output.resignFirstResponder()
         output.text = "\(decoded)adwe247vsck40jkl54@#$%^&^5wv4"
         print("Decoded: \(decoded)||adwe247vsck40jkl54@#$%^&^5wv4")
     }
